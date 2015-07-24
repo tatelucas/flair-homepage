@@ -1,0 +1,113 @@
+#footer{
+	background:$dark-blue;
+	overflow:hidden;
+	padding:63px 0;
+	@include mq($until: mobile){
+		padding:36px 0 24px;
+	}
+}
+
+.socialnetwork{
+	overflow:hidden;
+	@extend %listreset;
+	padding:0 0 0 46px;
+	@include mq($until: mobile){
+		text-align:center;
+		letter-spacing:-4px;
+		font-size:0;
+		line-height:0;
+		padding:0 0 20px;
+	}
+	li{
+		float:left;
+		margin:0 19px 0 0;
+		@include mq($until: mobile){
+			display:inline-block;
+			vertical-align:top;
+			letter-spacing:normal;
+			margin:0 8px;
+			float:none;
+		}
+		&:first-child{
+			a{
+				background:$dark-blue-6;
+				font-size:30px;
+				@include mq($until: mobile){
+					font-size:26px;
+				}
+				&:after{
+					margin:0;
+				}
+			}
+		}
+		&:last-child{
+			a{
+				background:$red;
+				font-size:30px;
+				@include mq($until: mobile){
+					font-size:26px;
+				}
+			}
+		}
+	}
+	a{
+		border-radius: 50%;
+		width:53px;
+		height:53px;
+		display:block;
+		font-size:28px;
+		color:$white;
+		background:$blue;
+		text-align:center;
+		white-space:nowrap;
+		@include mq($until: mobile){
+			width:47px;
+			height:47px;
+			font-size:24px;
+		}
+		&:after{
+			content:'';
+			display:inline-block;
+			height:53px;
+			width:1px;
+			overflow:hidden;
+			margin:0 0 0 -5px;
+			vertical-align:middle;
+			@include mq($until: mobile){
+				height:47px;
+			}
+		}
+		i{
+			vertical-align:middle;
+			display:inline-block;
+			white-space:normal;
+		}
+		&:hover{
+			opacity: .7;
+		}
+	}
+}
+
+.copy{
+	font:500 18px/20px $font-family-sans-serif-2;
+	color:$gray-2;
+	margin:0;
+	padding:15px 0 0 20px;
+	@include mq($until: tablet){
+		font-size:16px;
+		line-height:18px;
+		padding:20px 0 0;
+	}
+	@include mq($until: mobile){
+		font-size:14px;
+		line-height:16px;
+		text-align:center;
+		padding:0;
+	}
+	a{
+		color:$gray-2;
+		&:hover{
+			opacity: .7;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+#header{
+	overflow:hidden;
+	position:relative;
+	min-height: 400px;
+	padding:252px 0 138px;
+	font:18px/26px $font-family-sans-serif-2;
+	color:$white;
+	@include mq($until: mobile){
+		padding:23px 0 46px;
+		font-size:14px;
+		line-height:20px;
+		min-height: 353px;
+	}
+	.bg-stretch {
+		height: 807px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: -1;
+		@include mq($until: mobile){
+			height: 353px;
+		}
+		img{
+			margin-top:0 !important;
+		}
+	}
+	.text{
+		@extend %clearfix;
+		padding:0 25%;
+		text-align:center;
+		@include mq($until: mobile){
+			padding:0 10%;
+		}
+		p{
+			margin:0 0 51px;
+			@include mq($until: mobile){
+				margin:0 0 31px;
+			}
+		}
+	}
+}
+
+.navbar-brand{
+	display:block;
+	margin:0 auto 40px;
+	width:360px;
+	height:auto;
+	float:none;
+	padding:0;
+	@include mq($until: mobile){
+		width:164px;
+		margin:0 auto 28px;
+	}
+}

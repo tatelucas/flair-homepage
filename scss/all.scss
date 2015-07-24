@@ -1,0 +1,28 @@
+$mq-breakpoints: (
+    // Base device classes
+    mobile:      768px,
+    tablet:      992px,
+    desktop:    1024px,
+    widescreen: 1200px,
+    tvscreen:   1920px,
+
+    // Tweakpoints
+    mobileLandscape: 480px
+);
+
+// Show active breakpoint in top right corner of viewport
+// $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, widescreen, tvscreen);
+
+@import "vendors/mq";
+
+@import "base/fonts";
+@import "base/fonts-ico";
+@import "base/markup-mixins";
+
+@import "bootstrap-custom";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";

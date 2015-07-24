@@ -1,0 +1,58 @@
+$white: 									#fff;
+$blue: 										#578ccc;
+
+$red: 										#cc3532;
+$red-2: 									#d94255;
+
+$dark-blue: 								#0a1223;
+$dark-blue-2: 								#262e3f;
+$dark-blue-3: 								#2f3a4a;
+$dark-blue-4: 								#8e9cad;
+$dark-blue-5: 								#374356;
+$dark-blue-6: 								#38569d;
+
+$gray: 										#636262;
+$gray-2: 									#84878c;
+$gray-3: 									#6c6d6d;
+$gray-4: 									#4f5150;
+
+$green: 									#4fcab4;
+$green-2: 									#006f5f;
+
+// override bootstrap variables
+$text-color: 								$gray;
+$link-color: 								$gray;
+$link-hover-color: 							$dark-blue-2;
+$font-family-sans-serif: 					'AvenirNext', Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif-2: 					'avenirregular', Helvetica, Arial, sans-serif !default;
+$font-family-1: 							'icomoon';
+$font-size-base: 							16px;
+$line-height-base: 							1.3125;
+$min-width-body: 							320px;
+$body-bg: 									$white;
+$base-form-button-color: 					$green;
+$font-size-h1: 								29px;
+$font-size-h2: 								20px;
+$font-size-h3: 								18px;
+
+//navbar becomes uncollapsed
+
+$border-radius-base: 						6px;
+$border-radius-large: 						6px;
+$border-radius-small: 						6px;
+
+//forms
+$input-bg: 									$dark-blue-3;
+$input-color: 								$dark-blue-4;
+$input-border: 								$dark-blue-3;
+$input-border-radius: 						6px;
+$input-border-focus: 						$dark-blue-5;
+$input-color-placeholder: 					$white;
+$input-height-base: 						61px;
+$form-group-margin-bottom: 					22px;
+
+//Buttons
+$btn-default-color: 						$green-2;
+$btn-default-bg: 							$green;
+$btn-default-border: 						$gray-3;
+$btn-border-radius-base: 					6px;
